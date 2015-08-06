@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #428bca;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.container{
+	width: 100%;
+}
+.maintop{
+
+	padding:1.5em;
+}
+.mainsum {
+	padding: 1.5em;
+	margin-top: 10em;
+}
+.font-lato-small{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+.resize{
+    width:100px; 
+    height: auto;
+}
+.resize_contact{
+	width:50px;
+	height:auto;
+}
+.horzrule {
+	border-top: 2px solid #BCBBBB;
+}
+
+.cap-height {
+	min-height: 273.781px;
+	max-height: 273.781px;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 21px 2px rgba(66,139,202,0.63);
+-moz-box-shadow: 0px 0px 21px 2px rgba(66,139,202,0.63);
+box-shadow: 0px 0px 21px 2px rgba(66,139,202,0.63);
+}
+.text-mute-h3 {
+	color: rgba(119, 119, 119, 0.36);
+}
+.text-mute-urls {
+	color: rgba(119, 119, 119, 0.78);
+}
+.resize-main {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.summary{
+	margin-bottom:15em;
+}
+.summary-text {
+	font-size: 1.8em;
+	z-index: -1;
+}
+@media (max-width: 992px) {
+  .maintop {
+    max-height: 142px;
+  }
+  .name{
+  	top:-100px;
+  	float:right;
+  	padding-bottom: 10px;
+  }
+}
+@media (max-width: 510px) {
+  .name{
+  	top:-120px;
+  	width: 50%;
+  }
+}
+@media (max-width: 494px) {
+  .name{
+  	top:-135px;
+  	width: 50%;
+  	font-size: 1em;
+  }
+}
+#header {
+	position: fixed;
+	top:0px;
+	z-index: 1;
+	background-color: white;
+	width: 100%;
+	transition: all 0.4s ease;
+}
+

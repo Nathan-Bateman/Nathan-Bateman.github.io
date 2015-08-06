@@ -1,0 +1,34 @@
+	
+
+
+
+                <div class="col-md-6">
+                    <p>logo would go here</p>
+                </div>
+                <div class=" col-md-6 ">
+                    <h1 class="title-upper text-thin">Oxana Web</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+
+
+<div class='col-md-6'>
+		<p>image will go here</p>
+	</div>
+	<!--end of 1st col 6 div-->
+	<<div class='col-md-6'>
+		<h1>Nathan Bateman</h1>
+	</div>
+	<!--end of 2nd col 6 div-->
+	</div> 
+
+Links used:
+http://stackoverflow.com/questions/17623033/how-can-i-link-my-css-file-with-my-html-in-sublimetext-2
+http://webdesign.about.com/od/css/qt/tipcssmulticlas.htm
+http://www.oxanaweb.com/
+https://www.udacity.com/course/viewer#!/c-ud304/l-2794148535/m-2788768642
+http://pixabay.com/p-297290/?no_redirect
+http://www.w3schools.com/tags/att_img_width.asp
+http://upload.wikimedia.org/wikipedia/commons/f/f6/Bangkok_skytrain_sunset.jpg
+http://upload.wikimedia.org/wikipedia/commons/b/b7/A_Seder_table_setting.jpg
+http://upload.wikimedia.org/wikipedia/commons/e/ef/Preaching_from_a_Waggon_(David_Livingstone)_by_The_London_Missionary_Society.jpg
+http://upload.wikimedia.org/wikipedia/commons/7/7e/Bundesarchiv_Bild_183-13055-0008,_Hohendorf,_JP_mit_Dorflehrer.jpg
