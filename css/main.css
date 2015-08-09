@@ -28,10 +28,19 @@ body {
 	width:50px;
 	height:auto;
 }
+.toplinkedin {
+	float: right;
+}
+footer.row {
+	background-color: #428bca;
+	color: white;
+}
 .horzrule {
 	border-top: 2px solid #BCBBBB;
 }
-
+.modal-body{
+	background-color: #F6F6F6;
+}
 .cap-height {
 	min-height: 273.781px;
 	max-height: 273.781px;
@@ -52,6 +61,7 @@ box-shadow: 0px 0px 21px 2px rgba(66,139,202,0.63);
 }
 .img-circle {
     border-radius: 50%;
+    box-shadow: 0px 0px 21px 2px rgba(66,139,202,0.63);
 }
 .summary{
 	margin-bottom:15em;
@@ -90,5 +100,16 @@ box-shadow: 0px 0px 21px 2px rgba(66,139,202,0.63);
 	background-color: white;
 	width: 100%;
 	transition: all 0.4s ease;
+}
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+.ulgeneral {
+  list-style-type: none;
 }
 
