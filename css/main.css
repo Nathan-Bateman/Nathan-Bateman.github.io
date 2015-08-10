@@ -33,6 +33,15 @@ body {
 .toplinkedin {
 	float: right;
 }
+.mouseover:hover {
+	-moz-box-shadow: 0 0 50px rgba(66,139,202,0.63); 
+	-webkit-box-shadow: 0 0 50px rgba(66,139,202,0.63); 
+	box-shadow: 0 0 50px rgba(66,139,202,0.63);
+	cursor:pointer; 
+}
+.image-circle:hover {
+	opacity: .35;
+}
 footer.row {
 	background-color: #428bca;
 	color: white;
