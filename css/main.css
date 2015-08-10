@@ -11,6 +11,8 @@ body {
 .maintop{
 
 	padding:1.5em;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
 }
 .mainsum {
 	padding: 1.5em;
