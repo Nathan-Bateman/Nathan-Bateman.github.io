@@ -1467,8 +1467,10 @@ p{font-size:16px;font-family:lato,sans-serif;font-weight:300}
 #carousel-section .carousel-wrapper{display:flex;flex-wrap:nowrap;min-height:500px;position:relative;top:0;left:-450px;transform:translateY(25%)}
 #carousel-section .carousel-wrapper li:first-child{margin-left:50px}
 #carousel-section .carousel-wrapper>li{padding:0 50px;list-style-type:none}
-#carousel-section .move-right{width:0;height:0;border-top:43px solid transparent;border-bottom:43px solid transparent;border-left:43px solid rgba(0,97,127,.45);position:absolute;top:50%;right:1%;z-index:1;padding-right:15px}
-#carousel-section .move-left{width:0;height:0;border-top:43px solid transparent;border-bottom:43px solid transparent;border-right:43px solid rgba(0,97,127,.45);position:absolute;top:50%;left:1%;z-index:1;padding-left:15px}
+#carousel-section .move-right{width:0;height:0;border-top:43px solid transparent;border-bottom:43px solid transparent;border-left:43px solid #00617F;position:absolute;top:50%;right:1%;z-index:1;padding-right:15px}
+#carousel-section .move-right:hover{border-left:43px solid rgba(0,97,127,.45)}
+#carousel-section .move-left:hover{border-right:43px solid rgba(0,97,127,.45)}
+#carousel-section .move-left{width:0;height:0;border-top:43px solid transparent;border-bottom:43px solid transparent;border-right:43px solid #00617F;position:absolute;top:50%;left:1%;z-index:1;padding-left:15px}
 #carousel-section .arrow-wrapper-left{position:absolute;z-index:44;background-color:#C5F1FF;height:100%;min-width:50px;top:0;left:0}
 #carousel-section .arrow-wrapper-right{position:absolute;top:0;right:0;z-index:44;background-color:#C5F1FF;height:100%;min-width:50px}
 #carousel-section .not-carousel{text-align:center}
