@@ -177,18 +177,25 @@ body {
   #carousel-section #big-carousel-wrap {
     max-width: 1300px;
     margin: 0 auto; }
+    #carousel-section #big-carousel-wrap .flexslider {
+      background-color: #c5f1ff;
+      border: none; }
+      #carousel-section #big-carousel-wrap .flexslider .flex-viewport {
+        /*margin-left: 70px;
+    			margin-right: -40px;*/ }
   #carousel-section img {
     background-color: #fff;
     height: 300px;
-    width: 300px; }
-  #carousel-section .hide-carousel {
-    display: none; }
+    width: 300px;
+    margin: 0 auto; }
+  #carousel-section .no-margin {
+    margin: 0 !important; }
   #carousel-section .carousel {
     width: 100%;
     overflow: hidden; }
     #carousel-section .carousel h2 {
       text-align: center;
-      margin-bottom: -60px; }
+      margin-bottom: 25px; }
   #carousel-section .carousel-wrapper {
     display: flex;
     flex-wrap: nowrap;

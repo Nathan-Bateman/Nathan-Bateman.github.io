@@ -71,9 +71,18 @@ $(document).ready(function() {
   		$( ".show-sticky #menu-num" ).toggleClass('hide-menu');
 	});
 
-});
-//display carousel but not on mobile or small
-var carouselProjects = $('.carousel');
+	$('.flexslider').flexslider({
+	    animation: "slide",
+	    animationLoop: false,
+	    animationSpeed: 700,
+	    itemWidth: 300,
+	    itemMargin: 15,
+	    maxItems: 3,
+	    useCSS: true,
+	    pauseOnAction: true,
+	    touch: true
+  });
+	var carouselProjects = $('.flex-viewport');
 var normalProjects = $('.not-carousel');
 
 window.mobileAndTabletcheck = function() {
@@ -83,9 +92,15 @@ window.mobileAndTabletcheck = function() {
 }
 	
 if (window.mobileAndTabletcheck() === true) {
-	carouselProjects.addClass( "hide-carousel" );
+	carouselProjects.addClass( "no-margin" );
+	console.log('mobile device');
 
 } else {
-	normalProjects.addClass( "hide-carousel" );
+	// carouselProjects.addClass( "no-margin" );
+	console.log('not mobile');
 
 	}
+
+});
+//display carousel but not on mobile or small
+
